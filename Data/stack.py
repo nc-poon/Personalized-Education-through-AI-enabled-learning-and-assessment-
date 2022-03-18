@@ -3,7 +3,7 @@ import numpy as np
 import os
 from sklearn.preprocessing import RobustScaler
 
-train = pd.read_csv("first.csv", index_col=0)
+train = pd.read_csv("", index_col=0)
 print(train.info())
 cols = [
     "user_id",
@@ -58,4 +58,4 @@ print(train.describe())
 print(train.head())
 print(train.tail())
 
-pd.to_pickle(train, "Rnn2.pkl")
+pd.to_pickle(train, "")

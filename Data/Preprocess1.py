@@ -119,7 +119,5 @@ df = pd.DataFrame(tags)
 df.to_csv("tags.csv")
 print(f"There are {len(tags)} different tags")
 
-del df
-
 
 ### END ###
